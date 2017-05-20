@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dermal.iml" filepath="$PROJECT_DIR$/.idea/modules/dermal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dermal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dermal_main.iml" group="dermal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dermal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dermal_test.iml" group="dermal" />
+    </modules>
+  </component>
+</project>
