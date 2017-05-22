@@ -1,3 +1,5 @@
+package dermal;
+
 import ca.uhn.fhir.jpa.config.BaseJavaConfigDstu3;
 import ca.uhn.fhir.jpa.dao.DaoConfig;
 import org.apache.commons.dbcp2.BasicDataSource;

@@ -1,3 +1,5 @@
+package dermal;
+
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.context.FhirVersionEnum;
 import ca.uhn.fhir.jpa.dao.DaoConfig;
@@ -126,7 +128,7 @@ public class JpaServerDermal extends RestfulServer {
         registerInterceptor(corsInterceptor);
 
 		/*
-		 * Load interceptors for the server from Spring (these are defined in FhirServerConfig.java)
+		 * Load interceptors for the server from Spring (these are defined in dermal.FhirServerConfig.java)
 		 */
         Collection<IServerInterceptor> interceptorBeans = context.getBeansOfType(IServerInterceptor.class).values();
         for (IServerInterceptor interceptor : interceptorBeans) {
